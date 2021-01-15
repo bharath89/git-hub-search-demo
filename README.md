@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+Also, you need to generate github token as describe here
+
+https://docs.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token
+
+and put that token in `src/utils/apolloClient.js` line 5
+
 ### `yarn start`
 
 Runs the app in the development mode.\
